@@ -12,7 +12,8 @@ import host.exp.exponent.generated.BasePackageList;
 import okhttp3.OkHttpClient;
 
 // Needed for `react-native link`
-// import com.facebook.react.ReactApplication;
+import com.facebook.react.ReactApplication;
+import com.tanguyantoine.react.MusicControl;
 
 public class MainApplication extends ExpoApplication implements AppLoaderPackagesProviderInterface<ReactPackage> {
 
@@ -28,7 +29,8 @@ public class MainApplication extends ExpoApplication implements AppLoaderPackage
         // TODO: add native modules!
 
         // Needed for `react-native link`
-        // new MainReactPackage()
+        new MainReactPackage(),
+        new MusicControl()
     );
   }
 
