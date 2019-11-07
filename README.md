@@ -27,10 +27,10 @@ Link library:
 Add permissions:
 Add `<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />` to `AndroidManifest.xml`
 
-Run:
-`yarn start`
-
 Add import to App.js: 
 `import MusicControl from 'react-native-music-control';`
+
+Run:
+`yarn start`
 
 Error :(
